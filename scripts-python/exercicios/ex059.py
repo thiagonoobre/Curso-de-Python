@@ -44,4 +44,6 @@ while num == 0:
     if num == 5:
         print('=' * 25)
         print('Você decidiu sair do programa')
-
+    if num > 5:
+        print('Opção invalidade tente novamente')
+        num = num - num
