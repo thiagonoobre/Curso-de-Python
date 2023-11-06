@@ -7,11 +7,11 @@ i = 0
 
 while i != 10:
     if i == 0:
-        print('PA {}: {}'.format(i+1, p))
+        print('PA {}: {}'.format(i+1, p), end=' ')
         i = i + 1
     else:
         pa += r
-        print('PA {}: {}'.format(i+1, pa))
+        print('PA {}: {}'.format(i+1, pa), end=' ')
         i = i + 1
 
 

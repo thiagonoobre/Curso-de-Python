@@ -18,7 +18,7 @@ while respo != 'n':
 
 media = r / i
 
-print('A media entre os valores é {}'.format(media))
+print('Você digitou {} numeros. \nA media entre os valores é {}'.format(i, media))
 print('O menor valor é {}'.format(menor))
 print('O maior valor é {}'.format(maior))
 
